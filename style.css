@@ -1,0 +1,49 @@
+body {
+    background-color: #fffcfb;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #92140c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.card-text i {
+    margin-right: 10px;
+    color: #92140c;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #1e1e24;
+}
+
+.user-details {
+    margin-bottom: 15px;
+}
